@@ -1,3 +1,6 @@
 *.csv
 data/
 .DS_Store
+hourlyData/
+minuteData/
+dailyData/
