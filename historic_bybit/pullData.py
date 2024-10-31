@@ -25,7 +25,7 @@ directoryMap = {
     'D': 'daily'
     }
 start_time = datetime(2024, 6, 1, 0, 0)
-end_time = datetime(2024, 10, 7, 0, 0)
+end_time = datetime(2024, 10, 30, 0, 0)
 
 # Constants
 DIRECTORY = f"{directoryMap[interval]}Data"
