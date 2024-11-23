@@ -18,14 +18,15 @@ Set settings here
 
 2. Start time, End time
 """
-interval = 60
+interval = 1
 directoryMap = {
     1: 'minute',
+    5: '5minute',
     60: 'hourly',
     'D': 'daily'
     }
-start_time = datetime(2024, 6, 1, 0, 0)
-end_time = datetime(2024, 11, 14, 6, 0)
+start_time = datetime(2024, 8, 1, 0, 0)
+end_time = datetime(2024, 11, 21, 18, 0)
 
 # Constants
 DIRECTORY = f"{directoryMap[interval]}Data"
